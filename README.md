@@ -17,8 +17,9 @@ url = "http://localhost:8000/"
 data = {
         "start_date": "2023-07-26",
         "end_date": "2023-07-26",
-        "users": ["user1, user2"]
+        "users": ["user1, user2"],
         "tagss": ["tag1, tag2"]
+#You can add other option for query
 }
 
 response = requests.post(url, headers=headers, json=data)
